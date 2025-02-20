@@ -1,0 +1,16 @@
+Source: piper-tts
+Section: utils
+Priority: optional
+Maintainer: Support Team <support@sietium.com>
+Build-Depends: cmake, debhelper-compat (= 13)
+Standards-Version: 4.6.1
+Homepage: https://github.com/rhasspy/piper.git
+Rules-Requires-Root: no
+#Vcs-Git: https://salsa.debian.org/debian/piper-tts.git
+#Vcs-Browser: https://salsa.debian.org/debian/piper-tts
+
+Package: piper-tts
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: A fast, local neural text to speech system that sounds great

@@ -1,0 +1,313 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: piper-tts
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .dockerignore
+           .github/workflows/main.yml
+           .gitignore
+           .projectile
+           CMakeLists.txt
+           Dockerfile
+           Makefile
+           README.md
+           TRAINING.md
+           VERSION
+           etc/logo.png
+           etc/nabu_casa_sponsored.png
+           etc/test_sentences/ar.txt
+           etc/test_sentences/ca.txt
+           etc/test_sentences/cs.txt
+           etc/test_sentences/da.txt
+           etc/test_sentences/de.txt
+           etc/test_sentences/el.txt
+           etc/test_sentences/en.txt
+           etc/test_sentences/es.txt
+           etc/test_sentences/eu.txt
+           etc/test_sentences/fi.txt
+           etc/test_sentences/fr.txt
+           etc/test_sentences/hu.txt
+           etc/test_sentences/is.txt
+           etc/test_sentences/it.txt
+           etc/test_sentences/ka.txt
+           etc/test_sentences/kk.txt
+           etc/test_sentences/lb.txt
+           etc/test_sentences/ne.txt
+           etc/test_sentences/nl.txt
+           etc/test_sentences/no.txt
+           etc/test_sentences/pl.txt
+           etc/test_sentences/pt.txt
+           etc/test_sentences/ro.txt
+           etc/test_sentences/ru.txt
+           etc/test_sentences/sk.txt
+           etc/test_sentences/sr.txt
+           etc/test_sentences/sv.txt
+           etc/test_sentences/sw.txt
+           etc/test_sentences/test_ar.jsonl
+           etc/test_sentences/test_ca.jsonl
+           etc/test_sentences/test_cs.jsonl
+           etc/test_sentences/test_da.jsonl
+           etc/test_sentences/test_de.jsonl
+           etc/test_sentences/test_en-gb-x-rp.jsonl
+           etc/test_sentences/test_en-us.jsonl
+           etc/test_sentences/test_es-419.jsonl
+           etc/test_sentences/test_es.jsonl
+           etc/test_sentences/test_eu.jsonl
+           etc/test_sentences/test_fi.jsonl
+           etc/test_sentences/test_fr.jsonl
+           etc/test_sentences/test_hu.jsonl
+           etc/test_sentences/test_ka.jsonl
+           etc/test_sentences/test_lb.jsonl
+           etc/test_sentences/test_nb.jsonl
+           etc/test_sentences/test_ne.jsonl
+           etc/test_sentences/test_nl.jsonl
+           etc/test_sentences/test_pl.jsonl
+           etc/test_sentences/test_pt-br.jsonl
+           etc/test_sentences/test_pt.jsonl
+           etc/test_sentences/test_ro.jsonl
+           etc/test_sentences/test_ru.jsonl
+           etc/test_sentences/test_sk.jsonl
+           etc/test_sentences/test_sr.jsonl
+           etc/test_sentences/test_sw.jsonl
+           etc/test_sentences/test_tr.jsonl
+           etc/test_sentences/test_uk.jsonl
+           etc/test_sentences/test_vi.jsonl
+           etc/test_sentences/test_zh-cn.jsonl
+           etc/test_sentences/tr.txt
+           etc/test_sentences/uk.txt
+           etc/test_sentences/vi.txt
+           etc/test_sentences/zh.txt
+           etc/test_voice.onnx.json
+           lib/.gitignore
+           notebooks/lng/0.txt
+           notebooks/lng/es.lang
+           notebooks/piper_inference_(ONNX).ipynb
+           notebooks/piper_inference_(ckpt).ipynb
+           notebooks/piper_model_exporter.ipynb
+           notebooks/piper_multilenguaje_cuaderno_de_entrenamiento.ipynb
+           notebooks/piper_multilingual_training_notebook.ipynb
+           notebooks/pretrained_models.json
+           notebooks/translator.py
+           notebooks/wav/en/downloaded.wav
+           notebooks/wav/en/downloading.wav
+           notebooks/wav/en/dwnerror.wav
+           notebooks/wav/en/exit.wav
+           notebooks/wav/en/gpuavailable.wav
+           notebooks/wav/en/installed.wav
+           notebooks/wav/en/installing.wav
+           notebooks/wav/en/loaded.wav
+           notebooks/wav/en/multispeaker.wav
+           notebooks/wav/en/nogpu.wav
+           notebooks/wav/en/noid.wav
+           notebooks/wav/en/nomodel.wav
+           notebooks/wav/en/novoices.wav
+           notebooks/wav/en/selectmodel.wav
+           notebooks/wav/en/starting.wav
+           notebooks/wav/en/success.wav
+           notebooks/wav/en/waiting.wav
+           notebooks/wav/es/downloaded.wav
+           notebooks/wav/es/downloading.wav
+           notebooks/wav/es/dwnerror.wav
+           notebooks/wav/es/exit.wav
+           notebooks/wav/es/gpuavailable.wav
+           notebooks/wav/es/installed.wav
+           notebooks/wav/es/installing.wav
+           notebooks/wav/es/loaded.wav
+           notebooks/wav/es/multispeaker.wav
+           notebooks/wav/es/nogpu.wav
+           notebooks/wav/es/noid.wav
+           notebooks/wav/es/nomodel.wav
+           notebooks/wav/es/novoices.wav
+           notebooks/wav/es/selectmodel.wav
+           src/benchmark/benchmark_generator.py
+           src/benchmark/benchmark_onnx.py
+           src/benchmark/benchmark_torchscript.py
+           src/benchmark/requirements.txt
+           src/cpp/json.hpp
+           src/cpp/main.cpp
+           src/cpp/piper.cpp
+           src/cpp/piper.hpp
+           src/cpp/test.cpp
+           src/cpp/wavfile.hpp
+           src/python/.dockerignore
+           src/python/Dockerfile
+           src/python/README.md
+           src/python/build_monotonic_align.sh
+           src/python/mypy.ini
+           src/python/piper_train/.gitignore
+           src/python/piper_train/.isort.cfg
+           src/python/piper_train/VERSION
+           src/python/piper_train/__init__.py
+           src/python/piper_train/__main__.py
+           src/python/piper_train/_resources.py
+           src/python/piper_train/check_phonemes.py
+           src/python/piper_train/clean_cached_audio.py
+           src/python/piper_train/export_generator.py
+           src/python/piper_train/export_onnx.py
+           src/python/piper_train/export_torchscript.py
+           src/python/piper_train/filter_utterances.py
+           src/python/piper_train/infer.py
+           src/python/piper_train/infer_generator.py
+           src/python/piper_train/infer_onnx.py
+           src/python/piper_train/infer_torchscript.py
+           src/python/piper_train/norm_audio/__init__.py
+           src/python/piper_train/norm_audio/models/silero_vad.onnx
+           src/python/piper_train/norm_audio/trim.py
+           src/python/piper_train/norm_audio/vad.py
+           src/python/piper_train/preprocess.py
+           src/python/piper_train/py.typed
+           src/python/piper_train/pylintrc
+           src/python/piper_train/select_speaker.py
+           src/python/piper_train/setup.cfg
+           src/python/piper_train/vits/__init__.py
+           src/python/piper_train/vits/attentions.py
+           src/python/piper_train/vits/commons.py
+           src/python/piper_train/vits/config.py
+           src/python/piper_train/vits/dataset.py
+           src/python/piper_train/vits/lightning.py
+           src/python/piper_train/vits/losses.py
+           src/python/piper_train/vits/mel_processing.py
+           src/python/piper_train/vits/models.py
+           src/python/piper_train/vits/modules.py
+           src/python/piper_train/vits/monotonic_align/Makefile
+           src/python/piper_train/vits/monotonic_align/__init__.py
+           src/python/piper_train/vits/monotonic_align/core.c
+           src/python/piper_train/vits/monotonic_align/core.pyx
+           src/python/piper_train/vits/monotonic_align/setup.py
+           src/python/piper_train/vits/transforms.py
+           src/python/piper_train/vits/utils.py
+           src/python/piper_train/vits/wavfile.py
+           src/python/piper_train/voice_conversion.py
+           src/python/requirements.txt
+           src/python/requirements_dev.txt
+           src/python/run-docker
+           src/python/scripts/check.sh
+           src/python/scripts/setup.sh
+           src/python/setup.py
+           src/python_run/.gitignore
+           src/python_run/.isort.cfg
+           src/python_run/MANIFEST.in
+           src/python_run/mypy.ini
+           src/python_run/piper/__init__.py
+           src/python_run/piper/__main__.py
+           src/python_run/piper/config.py
+           src/python_run/piper/const.py
+           src/python_run/piper/download.py
+           src/python_run/piper/file_hash.py
+           src/python_run/piper/util.py
+           src/python_run/piper/voice.py
+           src/python_run/piper/voices.json
+           src/python_run/py.typed
+           src/python_run/pylintrc
+           src/python_run/requirements.txt
+           src/python_run/requirements_dev.txt
+           src/python_run/scripts/check.sh
+           src/python_run/scripts/piper
+           src/python_run/scripts/setup.sh
+           src/python_run/setup.cfg
+           src/python_run/setup.py
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     src/cpp/utf8.h
+           src/cpp/utf8/checked.h
+           src/cpp/utf8/core.h
+           src/cpp/utf8/cpp11.h
+           src/cpp/utf8/cpp17.h
+           src/cpp/utf8/unchecked.h
+Copyright: 2006-2018 Nemanja Trifunovic
+License:   __UNKNOWN__
+ Permission is hereby granted, free of charge, to any person or organization
+ obtaining a copy of the software and accompanying documentation covered by
+ this license (the "Software") to use, reproduce, display, distribute,
+ execute, and transmit the Software, and to prepare derivative works of the
+ Software, and to permit third-parties to whom the Software is furnished to
+ do so, all subject to the following:
+ .
+ The copyright notices in the Software and this entire statement, including
+ the above license grant, this restriction and the following disclaimer,
+ must be included in all copies of the Software, in whole or in part, and
+ all derivative works of the Software, unless such copies or derivative
+ works are solely in the form of machine-executable object code generated by
+ a source language processor.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
+ SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
+ FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
+ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ DEALINGS IN THE SOFTWARE.
+
+Files:     LICENSE.md
+Copyright: 2022 Michael Hansen
+License:   Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+Files:     notebooks/lng/translation guide.txt
+Copyright: __NO_COPYRIGHT__ in: notebooks/lng/translation guide.txt
+License:   __UNKNOWN__
+ Copyright: It is optional, if we want to put copyright.
+ And here we end with the first section.
+ *Second section.
+ strings:
+ In this section you will find all the messages available for translation.
+
+Files:     notebooks/lng/guía de traducción.txt
+Copyright: : Es opcional, si queremos poner derechos de autor. E aquí terminamos con la primera sección. *Segunda sección. strings: En esta sección se encuentran todos los mensajes disponibles para traducir.
+License:   __NO_LICENSE__
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         etc/logo.svg
+#         etc/nabu_casa_sponsored.svg
+
+#----------------------------------------------------------------------------
+# huge files   (skipped):
+#         etc/test_voice.onnx
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: LICENSE.md
+ MIT License
+ .
+ Copyright (c) 2022 Michael Hansen
+ .
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
